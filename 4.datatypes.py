@@ -47,4 +47,34 @@ Extra Study:
     3. What is object?
     4. What is the difference b/t list, tuple, dict and set
 '''
-print(name)
+print(name, type(name))
+
+# number types this_is_my_firs_varaibal
+intergerNumber = 100
+typeOfInterNumber = type(intergerNumber)
+print(intergerNumber, typeOfInterNumber)
+
+floatNumber = 11.11
+print(floatNumber, type(floatNumber))
+
+complexNumber = 11j
+print(complexNumber, type(complexNumber))
+
+# sequeacne
+listValues = [1,2,3,4,5,6,7]
+print(listValues, type(listValues))
+
+tupleValues = (1,2,3,4,5,6,7)
+print(tupleValues, type(tupleValues))
+
+# dictionary
+dictionaryValues = {'name':'Python langauge'}
+print(dictionaryValues, type(dictionaryValues))
+
+# set
+setValues = {0}
+print(setValues, type(setValues))
+
+# bool
+booleanValue = bool(setValues)
+print(booleanValue)
