@@ -9,14 +9,14 @@ Data Types:
 
 3. Sequence Type:
     a. list: List changeable hai. List Box []
-    b. tuple: Non-Changable. Tuple Box (,)
+    b. tuple: Non-Changable. Tuple Box ()
     c. range: Ye ek method hai aur isme (start,end)
 4. Mapping Type:
     a. dict: dictinary box {key:value}
         Example: {'name':'python'}
 5. Set Type: union etc...
     a. set: box {}
-        Example: {0:9}
+        Example: {0,9}
 6. Boolean Type: True | False
 7. Binary Type: bytes, bytearray, memoryview
 
@@ -63,7 +63,7 @@ dictionaryValues = {'name':'Python langauge'}
 print(dictionaryValues, type(dictionaryValues))
 
 # set
-setValues = {0}
+setValues = {0,2,3,4,5,6,7}
 print(setValues, type(setValues))
 
 # bool
