@@ -38,6 +38,33 @@ Your data
 """
 print(data)
 
+
+# use stirng as index
+name = 'Welcome to Hello Python Welcome to Hello Python Welcome to Hello Python Welcome to Hello Python Welcome to Hello Python Welcome to Hello Python Welcome to Hello Python Welcome to Hello Python Welcome to Hello Python Welcome to Hello Python Welcome to Hello Python'
+print('\nName: ', name, ' name[0]: ', name[0], ' name[3]: ', name[3])
+
+# Slicing me range jo hai wo (n-1) tak chalta hai.
+print('\nOnly get 1st word: ', name[0:7])
+print('\nOnly provide start number: ', name[11:])
+print('\nOnly provide last number: ', name[:11])
+
+# negative range
+print('\nGet last char: ', name[-1])
+print('\nGet last word: ', name[-6:])
+
+# chekc length of stirng
+print('\nCheck length of name: ', len(name))
+
+# string methos
+name = 'Hello Nikhil'
+print('\nCheck N: ', name.index('N'))
+print('\nCapatilze: ', name.capitalize())
+print('\nUpper case: ', name.upper())
+print('\nLower case: ', name.lower())
+
+newdata = name.split(' ')
+print('\nNew data: ', newdata)
+
 '''
 Programs:
 
