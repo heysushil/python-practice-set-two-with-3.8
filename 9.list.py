@@ -80,14 +80,10 @@ newstudent = ['Radha','Geeta','Seeta']
 # extend()
 class1.extend(newstudent)
 
-class1.
-
 print('\nMyclass: ', myclass)
 print('\nclass1: ', class1)
 '''
 Work:
 
 1. positive aur negetive slicing activity list me karni hai.
-
-
 '''
