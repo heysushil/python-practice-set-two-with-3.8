@@ -55,10 +55,6 @@ print('\nGet only values: ', megadata.values())
 # print('\nPopitem: ', megadata.popitem())
 print('\nPop: ', megadata.pop('nikhil'))
 
-# megadata
-
-print('\nData: ', megadata)
-
 '''
 Programms:
 
