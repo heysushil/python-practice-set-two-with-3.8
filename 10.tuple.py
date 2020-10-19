@@ -43,8 +43,11 @@ getTupleDataInList.append('Reena')
 newstudents = ['Hari','Ram','Seema','Pehu']
 getTupleDataInList.extend(newstudents)
 
+getTupleDataInList.remove('nikhil')
+getTupleDataInList.remove('debjit')
 print('\ngetTupleDataInList: ', getTupleDataInList)
 print('\nGet last index: ', getTupleDataInList[-1])
+
 
 # change list into tuple again
 mytuple = tuple(getTupleDataInList)

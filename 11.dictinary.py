@@ -45,7 +45,13 @@ megadata = {
     },
     'debjit' : {
         'name' : 'Debjit',
-        'mobile' : 9987987979
+        'mobile' : {
+            'name' : 'Debjit',
+            'mobile' : {
+                'name' : 'Debjit',
+                'mobile' : 9987987979
+            }
+        }
     }
 }
 print('\nMobile: ', megadata['debjit']['mobile'])
