@@ -63,4 +63,6 @@ Programms:
 2. Multiple profiles sinle dictionary me bana hai. Is me se alag alag user ki detail multiline string ka use karke show karna hai. But yaha par sahi user ki profile single multiline stirng me hi banana hai.
 
 3. Jo 2nd programm hai isme se ek kitne users the unko alag se dikhan hai.
+
+4. Learn these methods: update() / setdefault() / values()
 '''
