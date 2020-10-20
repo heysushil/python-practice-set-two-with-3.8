@@ -49,13 +49,44 @@ If aur while loop me difference?
 2. While loop me jab tak condtion sahi hai tab tak loop chalta ranega.
 '''
 
+# i ye ek starting point hai jo ye bata raha hai ki loop 2 se start hoga.
 i = 2
-while i <= 10000:
+# ye while ki condtion hain jaha par ye condtion lagaya hai ki, i jab tak chota ye equal to hoga 100 ke tab tak loop chalega
+while i <= 100:
+    '''
+    Yaha par i jo hai ye tab tak loop se bahar nahi nikalne dega jab tak i ki value 100 ke equal na ho jaye.
+    That means ki, loop tab tak repeate hoga jab tak condtion sahi rahe gi.
+    while loop body me print(i), i ki value print kar raha hai jo bar bar increment ho kar mil raha hai
+    '''
     print(i)
+    # loop ke andar hum condtion laga sakte hain, aur condtion ke andar break ka use karke loop ko waha par condtion ki mad se rook sakte hain.
     if i == 20:
         break
-    # ++ --
+    # ++ --: i += 2 ye asal me i = i + 2
     i += 2
+
+
+# create friend party list
+frind_num = int(input('\nEnter number of friends: '))
+
+friend_list = []
+i = 0
+while i < frind_num:
+    i += 1
+    name = input('Enter friend name: ')
+
+    # stop debjit
+    if name == 'debjit':
+        print('\n' + name + ' you are not allowed.')
+        # break
+        continue
+
+    friend_list.append(name)
+
+    # i += 1
+
+print('\nFinal friend list: ', friend_list)
+
 
 
 
@@ -73,4 +104,10 @@ While loop programs:
 3. Ek list create karo aur usme apne friedns ka name include karo then agar first friend aaye to usko hello hi message show karna hai. Second friend aaye to usse colleage ke bareme puchna hai. Thired fried aaye to susse jo man kare wo puch lena. Yaha par multiple condtion ka use karna hai. Sath me isme sabhi friend ko while loop karne ke show karn hai.
 
 4. Ek list create karna hai jisme ki alphabets honge aur unko while loop ka use karke print karna hai but jab bhi koi vovel aaye to usko batan hai. Yaha par while loop and condtion use hoga. Yaha par single if condtion me ye kaam karna hai iske liye multiple condtion nahi use karna hai.
+
+5. Jis tarike se list me values ko append kiya gaya hai, waise hi ek dictinaory banai hai aur usem ek single use ki details ko add karna hai aur last me multi line stirng ka use karke value show karna hia. 
+
+Jaise ki: name, email, mobile, address, course
+
+6. Ek main list bana hai jisme 4 alag lsit add honge, means ye 4 list 4 alag party me anne wale friend ki list hai. Jisko ek main list me add karna hai iske liye extend ka use hoga.
 '''
