@@ -59,3 +59,102 @@ Static aur dynamic values ka matlab:
 1. Static values means ye fix values hain jo hum ek bar define kar diye wahi rahega.
 2. Dynamic values means jab hum user input ke through valeus recive karte hain use time user kuch bhi values de sakta hain.
 '''
+
+# b. Function without arguments & without return value
+
+# defining funciton. yad arahe ye kewal funciton definition hai function ka use karne ke liye use call karna jaruri hai.
+def userDetails():
+    name = 'Debjit'
+    course = 'Python'
+    # store message on detail
+    detail = '''
+    Hi, my name is {} and I'm pursuing {} course.
+    '''.format(name, course)
+    # print the detail using print method
+    print('\n', detail)
+
+# call userDetails fuction
+userDetails()
+
+
+# c. Function with arguments & without return value
+
+def userDetailsWithArguments(name, course):
+    # store message on detail
+    detail = '''
+    Hi, my name is {} and I'm pursuing {} course.
+    '''.format(name, course)
+    # print the detail using print method
+    print('\n', detail)
+
+# call userDetails fuction
+name = 'Mr. Debjit'
+course = 'My Python'
+userDetailsWithArguments(name, course)
+
+
+# fucntion with list values
+def funWithList(mylist):
+    print('\nfunWithList:\n\nHi my name is ' + mylist[0] + ' and my course is ' + mylist[1])
+
+mydata = ['debjit','python']
+funWithList(mydata)
+
+# recive values as list with useing * sign before argument name
+# tupel(myval) dict()
+def funReciveValuesAsDictinary(**mydictvalues):
+    mydata = '''
+    funReciveValuesAsList:
+
+    Name: {}
+    Course: {}
+    Mobile: {}
+    '''.format(mydictvalues['name'], mydictvalues['course'], mydictvalues['mobile'])
+    print('\n', mydata)
+
+name = 'Mr. Debjit'
+course = 'My Python'
+mobile = 997979879
+funReciveValuesAsDictinary(name = name, course = course, mobile = mobile)
+
+
+# d. Function without arguments & with return value
+def fun_Without_Arg_But_With_Retrun_Value():
+    name = 'Mr. Debjit'
+    course = 'My Python'
+    mobile = 997979879
+
+    mydata = '''
+    fun_Without_Arg_But_With_Retrun_Value:
+
+    Name: {}
+    Course: {}
+    Mobile: {}
+    '''.format(name, course, mobile)
+    # print('\n', mydata)
+    return mydata
+
+
+result = fun_Without_Arg_But_With_Retrun_Value()
+print(result)
+
+
+# a. Function with arguments & with return value
+def fun_with_arg_and_return_value(name, course):
+    # store message on detail
+    detail = '''
+    fun_with_arg_and_return_value
+
+    Hi, my name is {} and I'm pursuing {} course.
+    '''.format(name, course)
+    # print the detail using print method
+    # print('\n', detail)
+    return detail, name
+
+# call userDetails fuction
+name = 'Mr. Debjit'
+course = 'My Python'
+myresult = fun_with_arg_and_return_value(name, course)
+print('\n', myresult)
+
+
