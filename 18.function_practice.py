@@ -50,7 +50,7 @@ message = '''
 4. Exit
 ---------------------------------
 Note: Remeber only enter numbers.
-Enter 1 or 2 or 3 for any of calulation:    
+Enter 1 or 2 or 3 or 4 for any of calulation:    
 '''
 option = int(input(message))
 
