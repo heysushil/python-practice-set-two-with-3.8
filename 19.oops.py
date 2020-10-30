@@ -86,3 +86,17 @@ mydata = My_method_values()
 
 # call mydetails method
 mydata.mydetails(name = 'Nikhil', myname = 'hey sushil', yourname = 'debjit')
+
+
+'''
+Question:
+
+1. Class ke andar 4 fucntion work behaviour ke liye fucntion create karne hai apne hisab se aur unka result dekhna hai:
+
+    a. Function without arguments & without return value
+    b. Function with arguments & without return value
+    c. Function without arguments & with return value
+    d. Function with arguments & with return value
+
+2. Ek class banana hai Restorant name se aur iske andar alag-alag disess ke liye fucntion create karne hai aur unme apne hisab se print message use kanr hai.
+'''
