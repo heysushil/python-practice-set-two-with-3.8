@@ -21,3 +21,13 @@ print('\n Curent date and time: ', curetndatetime.now)
 # month = mydate.
 print(datedetail)
 
+
+# curretn date and time
+mydate = d.datetime.now()
+print('\nMydate: ', mydate)
+
+print('Todyas day: ', mydate.strftime('%a'))
+print('Todyas day: ', mydate.strftime('%A'))
+
+print('\nDate: ', mydate.strftime('%d %A %m %Y - %H:%M:%S %p'))
+print('\nDate: ', mydate.strftime('%d\'th %B %Y - %H:%M:%S %p'))
