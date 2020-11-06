@@ -71,7 +71,7 @@ def read_file():
     myfile = open('file_handling/files/'+filename+'.txt', 'r')
 
     print('\nMyfile: ', myfile.read())
-    myfile.
+    # myfile.
     myfile.close()
 
 # call read file
