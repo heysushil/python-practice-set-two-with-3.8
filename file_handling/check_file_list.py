@@ -34,7 +34,7 @@ def show_all_files():
     print('\nOption: ', option)
     print('\nFinal list: ', final_list)
 
-show_all_files()
+# show_all_files()
 
 '''
 Next work:

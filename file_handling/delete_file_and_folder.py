@@ -17,6 +17,7 @@ import os
 # direct remove file
 # os.remove('D:/xampp/htdocs/htmldemo/python-practice-set-two-with-3.8/file_handling/files/mydemo.txt')
 
+
 delete_file_name = input('\nEnter file name for delete: ')
 
 # remove but before check FileNotFoundError
