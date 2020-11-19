@@ -30,18 +30,19 @@ def show_all_files():
         final_list.append(r.strip())
         i += 1
     
-    option = input('\nEnter your options: ')
+    option = int(input('\nEnter your options: '))
     print('\nOption: ', option)
-    print('\nFinal list: ', final_list)
+    # myfilename = final_list[option-1]
+    print('\nFinal list: ', final_list[option-1])
 
-# show_all_files()
+show_all_files()
 
 '''
 Next work:
 
 1. Option show hone ke bad user agar koi bhi option enter kare then use option ke file ko append mode me open karna hai.
 
-2. THen use ko message shro ki this file open for write your message. Enter your message.
+2. THen use ko message show karo this file open for write your message. Enter your message.
 
 3. Message enter karne ke bad user ko sucess ka message show karo. Then usne jo bhi message add kiya wo message show karo.
 

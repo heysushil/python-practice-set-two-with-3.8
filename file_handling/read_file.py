@@ -14,7 +14,7 @@ def choose_to_write_in_file():
     filename = input('\nEnter file name: ')
 
     # open file
-    myfile = open('file_handling/files/'+filename+'.txt', 'a')
+    myfile = open('D:/xampp/htdocs/htmldemo/python-practice-set-two-with-3.8/file_handling/files/'+filename+'.txt', 'a')
 
     # add data on this file
     user_message = input('Enter your message: ')
